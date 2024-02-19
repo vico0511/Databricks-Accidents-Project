@@ -16,7 +16,7 @@ Ce projet vise à analyser et prédire la gravité des accidents de la route en 
 # Databricks-Accidents-Project
 Examen : Créer et héberger un modèle prédictif
 
-# Azure /3
+# Azure configuration 
 
 1.   Créer un groupe de ressources nommé votre-nom-iut-sd3-exam (exemple : dupont-iut-sd3-exam) localisé en North Europe.
 
@@ -43,14 +43,14 @@ Pricing Tier : Premium (+ Role-based access controls)
 
 
  
-# Databricks /12
+# Databricks configuration 
 
 
 1.	Créer un cluster avec les configurations ci-dessous :
 /// creation du cluster
 Faire -> Compute (create compute)
 
-
+# Cluster configuration 
 /// Configuration du cluster   
 o	Name : iut_sd3_exam
 o	Policy : Unrestricted
@@ -61,16 +61,6 @@ o	⚠️ Ne pas utiliser Photon Acceleration
 o	Node type : Standard DS3 v2 14GB Memory, 4 Cores
 o	Terminate after : 60 min of inactivity
 
-
-2.	Importer les données dans Databricks
-
-Importer les csv 
-Faire -> catalog -> ADD -> ADD data -> DBFS
-
-File uploaded to /FileStore/tables/lieux.csv
-File uploaded to /FileStore/tables/carac.csv
-File uploaded to /FileStore/tables/veh.csv
-File uploaded to /FileStore/tables/vict.csv
 
  
 
