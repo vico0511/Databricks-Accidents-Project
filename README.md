@@ -14,30 +14,39 @@ Ce projet vise à analyser et prédire la gravité des accidents de la route en 
 
 
 # Databricks-Accidents-Project
+
 Examen : Créer et héberger un modèle prédictif
 
 # Azure configuration 
 
 1.   Créer un groupe de ressources nommé votre-nom-iut-sd3-exam (exemple : dupont-iut-sd3-exam) localisé en North Europe.
 
-/// aller sur azur microsoft 
+/// aller sur azur microsoft
+
 Faire -> https://portal.azure.com/#home
 
 /// crée une ressource group 
+
 Faire -> Create a ressource 
 
 /// configuration ressource group 
+
 Ressource group -> LESUR-nom-iut-sd3-exam
+
 Region -> North Europe
 
 3.  Créer une instance Azure Databricks dans ce groupe de ressource avec les configurations suivantes :
 
 /// crée une un environement databricks  
+
 Faire -> Create an Azure Databricks workspace
 
 /// configaration databricks
+
 Workspace name ->  LESUR-iut-sd3-databricks
+
 Region : North Europe
+
 Pricing Tier : Premium (+ Role-based access controls)
 
 
