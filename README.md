@@ -1,14 +1,14 @@
 # Titre du Notebook: Modélisation des Accidents de la Route
 
-## Présentation du projet 
+# Présentation du projet 
 Ce projet vise à analyser et prédire la gravité des accidents de la route en France, en utilisant des données ouvertes fournies par le site data.gouv.fr, le portail français de l'open data. L'ensemble de données se compose de quatre fichiers CSV distincts, chacun apportant des informations cruciales sur les accidents de la route, les lieux où ils se sont produits, les véhicules impliqués, et les victimes concernées.
 
 
-## But du projet 
+# But du projet 
 
 A l'aide d'une API dans le dossier Shared du workspace de Databricks dans lequel il est possible de tester votre modèle avec des exemples d'accidents.
 
-## Sommaire du repository
+# Sommaire du repository
 
 ### Description des données
 ### Importation de tous les outils
@@ -29,7 +29,7 @@ A l'aide d'une API dans le dossier Shared du workspace de Databricks dans lequel
 ####  Calculer les métriques (accuracy, f1-score) du meilleur modèle de chaque méthode pour comparer leur performance en vous aidant du tutoriel.
 ### Inscrire son modele avant deploiment
 
-## le modèle retenu et ses performances
+# le modèle retenu et ses performances
 
 Random Forest - Exactitude: 0.64, Score F1: 0.62
 
